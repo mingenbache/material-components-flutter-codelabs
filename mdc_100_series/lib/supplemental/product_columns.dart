@@ -75,6 +75,7 @@ class OneProductCardColumn extends StatelessWidget {
     return ListView(
       reverse: true,
       physics: const ClampingScrollPhysics(),
+      reverse: true,
       children: <Widget>[
         SizedBox(
           height: 40.0,
